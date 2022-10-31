@@ -1,0 +1,9 @@
+name: ZERO Logger
+type: module
+description: "ZERO Logger"
+core_version_requirement: 9.*
+package: zero
+version: 0.1.0
+
+dependencies:
+  - zero_util

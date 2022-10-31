@@ -1,0 +1,9 @@
+services:
+
+  zero_logger.manager:
+    class: Drupal\zero_logger\Service\ZeroLoggerManager
+    arguments: ['@plugin.manager.zero_logger', '@zero_util']
+
+  plugin.manager.zero_logger:
+    class: Drupal\zero_logger\Service\ZeroLoggerPluginManager
+    parent: default_plugin_manager
